@@ -16,7 +16,7 @@ To ensure transparency and compliance with Discord's Developer Terms of Service 
 
 ## Landing Page
 The live installation gateway can be accessed at:  
-**[https://emmalt3.github.io/rDrugsInstall/](https://emmalt3.github.io/rDrugsInstall/)**
+**[https://rdrugs.org/install](https://emmalt3.github.io/rDrugsInstall/)**
 
 ---
 **Lead Developer:** Emma (\@emmalt3 | [u/possibly\_emma](https://reddit.com/u/possibly_emma))  
