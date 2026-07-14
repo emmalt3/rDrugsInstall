@@ -50,6 +50,6 @@ To exercise these rights, please follow the contact instructions in Section 6. R
 ## 6. Contact Information & Data Controller
 The Data Controller responsible for this bot is the r/Drugs Lead Developer. For any privacy-related inquiries, data access requests, or concerns, please reach out via:
 
-* **Email:** emma.staff@rdrugs.org
+* **Email:** emma.rdrugs@gmail.com
 * **Discord:** @emmalt3
 * **Reddit:** u/possibly\_emma
