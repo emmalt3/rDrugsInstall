@@ -15,6 +15,9 @@ To provide community utility and harm-reduction features, we collect and process
 * Suggestions submitted through the suggestion system.
 * LaTeX source code submitted for rendering.
 
+### Transient Message Data
+* Content and metadata of recently deleted messages are cached for "snipe" functionality.
+
 ### Safety & Health Data (Special Category Data)
 For members utilising the **User in Crisis (UIC)** or **Sobriety** features, we process:
 * Intervention timestamps and moderator-provided safety notes.
@@ -37,6 +40,7 @@ We process your data under the following legal frameworks:
 * **Suggestions:** Retained until approved, denied, or manually deleted.
 * **Moderation & Safety Records:** Retained as long as necessary for community safety. Under GDPR, moderation logs may be kept even after a user leaves to prevent ban evasion (Legitimate Interest).
 * **Sobriety Data:** Deleted immediately upon user request or manual reset.
+* **Snipe Cache:** Snipe data is stored in a volatile cache and is automatically purged after 24 hours.
 
 ## 5. Your Rights (GDPR Art. 15-21)
 Users have the following rights regarding their data:
