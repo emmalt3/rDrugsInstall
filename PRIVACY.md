@@ -15,6 +15,9 @@ To provide community utility and harm-reduction features, we collect and process
 * Suggestions submitted through the suggestion system.
 * LaTeX source code submitted for rendering.
 
+### Command Interaction Data
+* The names of commands invoked and the parameters provided by the user (e.g., LaTeX expressions, moderation reasons) are logged to internal staff channels to support community safety and operational auditing.
+
 ### Transient Message Data
 * Content and metadata of recently deleted messages are cached for "snipe" functionality.
 
@@ -28,6 +31,7 @@ We process your data under the following legal frameworks:
 * **Legitimate Interests:** For server security, prevention of ban evasion, and moderation accountability.
 * **Vital Interests (Art. 9(2)(c)):** Processing safety data (UIC) where necessary to protect the life or physical safety of a user.
 * **Consent:** For sobriety tracking, data is only processed when a user explicitly initiates the feature.
+* **Operational Auditing:** Real-time logging of command outcomes (Executed, Denied, or Errored) to ensure accountability and detect attempted misuse of administrative tools.
 
 ## 3. Data Storage and Security
 * All data is stored on a private, self-hosted, hardened server running Arch Linux.
