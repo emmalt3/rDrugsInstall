@@ -11,8 +11,8 @@ The r/Drugs Utilities Bot is an internal tool and is **not available for public 
 ## Legal Documentation
 To ensure transparency and compliance with Discord's Developer Terms of Service and GDPR standards, our legal documentation is publicly accessible here:
 
-* [**Privacy Policy**](PRIVACY.md) — Information on data collection, retention, and user rights.
-* [**Terms of Service**](TOS.md) — Guidelines for bot usage and medical disclaimers.
+* [**Privacy Policy**](/privacy/) — Information on data collection, retention, and user rights.
+* [**Terms of Service**](/terms/) — Guidelines for bot usage and medical disclaimers.
 
 ## Landing Page
 The live installation gateway can be accessed at:  
