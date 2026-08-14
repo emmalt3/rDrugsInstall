@@ -229,7 +229,9 @@
 	<body>
 		<div class="page">
 			<nav class="top-nav" aria-label="Breadcrumb">
-				<a class="back-link" href="/">&larr; Back to home</a>
+				<a class="back-link" href="{{ '/' | relative_url }}"
+					>&larr; Back to home</a
+				>
 			</nav>
 			<main class="legal-card">
 				<article>
@@ -237,7 +239,9 @@
 				</article>
 			</main>
 			<footer class="page-footer">
-				<a class="back-link" href="/">&larr; Back to home</a>
+				<a class="back-link" href="{{ '/' | relative_url }}"
+					>&larr; Back to home</a
+				>
 				<p class="footer-copy">
 					&copy; {{ site.time | date: "%Y" }} r/Drugs Official. All
 					rights reserved.
