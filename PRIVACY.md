@@ -71,22 +71,20 @@ We process your data under the following legal frameworks:
 
 ## 5. Data Retention
 
-| Category | Retention |
-|---|---|
-| Deleted-message cache | 24 hours, automatic expiry |
-| LaTeX render cache (source and image) | 7 days, automatic daily cleanup |
-| LaTeX compilation error messages | 5 minutes |
-| Temporary render files | Removed on completion; any residual files removed within 24 hours |
-| Active role, timeout, and age-verification timers | Deleted when the timer is processed |
-| Role change history | 90 days |
-| Routine operational audit entries (startup, shutdown, restart) | 30 days |
-| Other operational audit entries | 180 days |
-| Crisis intervention records | Retained without a fixed expiry |
-| Suggestions | Retained without a fixed expiry |
-| Custom donator role registrations | Until removed by staff |
-| Personal LaTeX settings (preamble, theme) | Until changed or reset by the user |
-| Rotating application log files | 7 days |
-| Database backups | 7 days |
+- **Deleted-message cache** — 24 hours, automatic expiry
+- **LaTeX render cache (source and image)** — 7 days, automatic daily cleanup
+- **LaTeX compilation error messages** — 5 minutes
+- **Temporary render files** — Removed on completion; any residual files removed within 24 hours
+- **Active role, timeout, and age-verification timers** — Deleted when the timer is processed
+- **Role change history** — 90 days
+- **Routine operational audit entries (startup, shutdown, restart)** — 30 days
+- **Other operational audit entries** — 180 days
+- **Crisis intervention records** — Retained without a fixed expiry
+- **Suggestions** — Retained without a fixed expiry
+- **Custom donator role registrations** — Until removed by staff
+- **Personal LaTeX settings (preamble, theme)** — Until changed or reset by the user
+- **Rotating application log files** — 7 days
+- **Database backups** — 7 days
 
 **Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for.
 
