@@ -1,3 +1,9 @@
+---
+layout: legal
+title: Privacy Policy
+permalink: /privacy/
+---
+
 # Privacy Policy
 
 **Last Updated:** 18 June 2026
@@ -23,11 +29,13 @@ To provide community utility and harm-reduction features, we collect and process
 
 ### Safety & Health Data (Special Category Data)
 For members utilising the **User in Crisis (UIC)** or **Sobriety** features, we process:
+
 * Intervention timestamps and moderator-provided safety notes.
 * Sobriety start dates and addiction categories (where opted-in by the user).
 
 ## 2. Legal Basis for Processing (GDPR Compliance)
 We process your data under the following legal frameworks:
+
 * **Legitimate Interests:** For server security, prevention of ban evasion, and moderation accountability.
 * **Vital Interests (Art. 9(2)(c)):** Processing safety data (UIC) where necessary to protect the life or physical safety of a user.
 * **Consent:** For sobriety tracking, data is only processed when a user explicitly initiates the feature.
@@ -48,6 +56,7 @@ We process your data under the following legal frameworks:
 
 ## 5. Your Rights (GDPR Art. 15-21)
 Users have the following rights regarding their data:
+
 * **Access:** Request a copy of all data stored about you.
 * **Rectification:** Request correction of inaccurate data.
 * **Erasure:** Request deletion of your data (subject to moderation/security retention requirements).
@@ -61,3 +70,4 @@ The Data Controller responsible for this bot is the r/Drugs Lead Developer. For 
 * **Email:** emma.rdrugs@gmail.com
 * **Discord:** @emmalt3
 * **Reddit:** u/possibly\_emma
+
