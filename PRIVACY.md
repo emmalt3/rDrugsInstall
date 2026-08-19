@@ -39,6 +39,7 @@ The bot reads the text of messages posted in channels it can access. It does thi
 * Suggestions submitted through `/suggestion`.
 * LaTeX source and custom document preambles submitted through `/latex` or written in chat.
 * Context supplied when a staff vote is opened with `/call-vote`.
+* Message content that triggers the automated word/regex filter (automod). The triggering message text, channel, and timestamp are stored for moderation review and may be reproduced, in a fenced code block, in a staff-only moderation log channel.
 
 ### Command Interaction Data
 * The names of commands invoked, the parameters supplied, the invoking user, the channel, and the outcome (Executed, Permission Denied, or Errored) are posted to internal staff-only channels. This full-fidelity logging is performed to ensure immediate situational awareness for our staff team and is processed under the Vital Interests and Public Interest legal bases.
@@ -85,6 +86,7 @@ We process your data under the following legal frameworks:
 - **Personal LaTeX settings (preamble, theme)** — Until changed or reset by the user
 - **Rotating application log files** — 7 days
 - **Database backups** — 7 days
+- **Automod trigger records** - 90 days
 
 **Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for.
 
