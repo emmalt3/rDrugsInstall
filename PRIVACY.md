@@ -39,7 +39,7 @@ The bot reads the text of messages posted in channels it can access. It does thi
 * Suggestions submitted through `/suggestion`.
 * LaTeX source and custom document preambles submitted through `/latex` or written in chat.
 * Context supplied when a staff vote is opened with `/call-vote`.
-* Message content that triggers the automated word/regex filter (automod). The triggering message text, channel, and timestamp are stored for moderation review and may be reproduced, in a fenced code block, in a staff-only moderation log channel.
+* Message content that triggers the automated moderation filter. This includes both our own word/regex filter and Discord's built-in AutoMod, for the specific rule(s) we have configured the bot to monitor. The triggering message text, channel, and timestamp are stored for moderation review and may be reproduced, in a fenced code block, in a staff-only moderation log channel. For content blocked by Discord's AutoMod before it was ever sent, the channel and message identifiers may be unavailable, but the attempted message text is still retained under the same terms.
 
 ### Command Interaction Data
 * The names of commands invoked, the parameters supplied, the invoking user, the channel, and the outcome (Executed, Permission Denied, or Errored) are posted to internal staff-only channels. This full-fidelity logging is performed to ensure immediate situational awareness for our staff team and is processed under the Vital Interests and Public Interest legal bases.
