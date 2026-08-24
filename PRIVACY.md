@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated:** 14 August 2026
+**Last Updated:** 28 August 2026
 
 ## 1. Scope
 
