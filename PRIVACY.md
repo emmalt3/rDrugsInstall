@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated:** 27 August 2026
+**Last Updated:** 29 August 2026
 
 ## 1. Scope
 
@@ -41,6 +41,7 @@ The bot reads the text of messages posted in channels it can access. It does thi
 * Context supplied when a staff vote is opened with `/call-vote`.
 * Message content that triggers the automated moderation filter. This includes both our own word/regex filter and Discord's built-in AutoMod, for the specific rule(s) we have configured the bot to monitor. The triggering message text, channel, and timestamp are stored for moderation review and may be reproduced, in a fenced code block, in a staff-only moderation log channel. For content blocked by Discord's AutoMod before it was ever sent, the channel and message identifiers may be unavailable, but the attempted message text is still retained under the same terms.
 * When a bot feature fails, the technical detail of the failure — the error message, stack trace, and reference ID — is written to a private channel accessible only to the Data Controller, for diagnostic purposes. Where the failure was caused by user-submitted content, that content may appear in the error detail. This applies in particular to LaTeX source that fails to compile, since the compiler reproduces the offending line in its output.
+
 ### Command Interaction Data
 * The names of commands invoked, the parameters supplied, the invoking user, the channel, and the outcome (Executed, Permission Denied, or Errored) are posted to internal staff-only channels. This full-fidelity logging is performed to ensure immediate situational awareness for our staff team and is processed under the Vital Interests and Public Interest legal bases.
 
@@ -89,7 +90,7 @@ We process your data under the following legal frameworks:
 - **Automod trigger records** - 90 days
 - **Developer error archive** — 90 days
 
-**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for.
+**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for. The one exception is a fragment of message content that appears in the developer error archive described above (for example, LaTeX source that failed to compile) — that fragment follows the archive's 90-day retention, not the 7-day figure.
 
 Crisis intervention records, moderation history, and suggestions are retained without a fixed expiry because they are necessary for community safety, moderation accountability, and the prevention of ban evasion. Under GDPR, moderation records may be kept after a user leaves the server on a Legitimate Interest basis.
 
@@ -124,3 +125,4 @@ The Data Controller responsible for this bot is the r/Drugs Lead Developer. For 
 ## 9. Changes to This Policy
 
 This policy may be updated as the bot's features change. The date at the top of this document reflects the most recent revision. Material changes affecting how member data is processed will be announced in the r/Drugs Discord server.
+
