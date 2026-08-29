@@ -87,10 +87,10 @@ We process your data under the following legal frameworks:
 - **Personal LaTeX settings (preamble, theme)** — Until changed or reset by the user
 - **Rotating application log files** — 7 days
 - **Database backups** — 7 days
-- **Automod trigger records** - 90 days
+- **Automod trigger records** — 30 days
 - **Developer error archive** — 90 days
 
-**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for. The one exception is a fragment of message content that appears in the developer error archive described above (for example, LaTeX source that failed to compile) — that fragment follows the archive's 90-day retention, not the 7-day figure.
+**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for. There are two exceptions. Message text that triggers the automated moderation filter is retained for 30 days, so that moderators reviewing a member's conduct can see a pattern of behaviour rather than a single incident. And a fragment of message content may appear in the developer error archive described above (for example, LaTeX source that failed to compile), which follows that archive's 90-day retention.
 
 Crisis intervention records, moderation history, and suggestions are retained without a fixed expiry because they are necessary for community safety, moderation accountability, and the prevention of ban evasion. Under GDPR, moderation records may be kept after a user leaves the server on a Legitimate Interest basis.
 
