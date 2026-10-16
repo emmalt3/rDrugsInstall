@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated:** 29 August 2026
+**Last Updated:** 17 October 2026
 
 ## 1. Scope
 
@@ -29,11 +29,13 @@ The bot reads the text of messages posted in channels it can access. It does thi
 * To recognise and execute four moderator-only text commands that are typed in chat with a `+` prefix (`+agemute`, `+unmute`, `+silence`, `+snipe`).
 * To detect mathematical and chemical notation written in LaTeX and render it to an image in reply.
 * To capture the content of a message at the moment it is deleted, so moderators can review what was removed.
+* To keep a record of pinned messages. Each community channel holds at most a set number of pins. When a channel goes over that number, the oldest pin is unpinned and a copy is posted to a staff-only archive channel.
 
-**Most message text is processed in memory and discarded immediately.** Two categories are written to storage:
+**Most message text is processed in memory and discarded immediately.** Three categories are written to storage:
 
 * **Deleted messages.** When a message is deleted, its text, the author's username and avatar URL, and the URLs of any attachments or stickers are cached for 24 hours. One entry is held per channel and is overwritten by the next deletion in that channel. This supports a moderator-only command that displays the most recently deleted message.
 * **LaTeX source.** When a message containing LaTeX notation is rendered to an image, the submitted source is stored in a render cache for 7 days so that identical expressions do not need to be recompiled.
+* **Archived pins.** When a pin is rotated out of a community channel, a copy of its text, its author, its channel, the time it was pinned, and up to ten attached images or videos is posted to a staff-only Discord channel. If the original message is later deleted, the copy is removed automatically. The bot's database keeps only the message, channel and author IDs and timestamps, never the text.
 
 ### User-Submitted Content
 * Suggestions submitted through `/suggestion`.
@@ -89,8 +91,10 @@ We process your data under the following legal frameworks:
 - **Database backups** — 7 days
 - **Automod trigger records** — 30 days
 - **Developer error archive** — 90 days
+- **Archived pinned messages** — Until the original message is deleted. If a whole channel is deleted, its archived copies are kept until removed by staff
+- **Pin archive records (IDs and timestamps)** — Kept while the archived copy exists; deleted 30 days after the original message is deleted
 
-**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for. There are two exceptions. Message text that triggers the automated moderation filter is retained for 30 days, so that moderators reviewing a member's conduct can see a pattern of behaviour rather than a single incident. And a fragment of message content may appear in the developer error archive described above (for example, LaTeX source that failed to compile), which follows that archive's 90-day retention.
+**Message content specifically** is retained for no more than 7 days in live storage, and no more than approximately 14 days once backup rotation is accounted for. There are three exceptions. Message text that triggers the automated moderation filter is retained for 30 days, so that moderators reviewing a member's conduct can see a pattern of behaviour rather than a single incident. A fragment of message content may appear in the developer error archive described above (for example, LaTeX source that failed to compile), which follows that archive's 90-day retention. And a pinned message that is rotated out of a community channel is copied to a staff-only archive channel, where the copy is kept until the original message is deleted; if a whole channel is deleted, its archived copies remain until staff remove them.
 
 Crisis intervention records, moderation history, and suggestions are retained without a fixed expiry because they are necessary for community safety, moderation accountability, and the prevention of ban evasion. Under GDPR, moderation records may be kept after a user leaves the server on a Legitimate Interest basis.
 
@@ -102,6 +106,7 @@ The following controls are available:
 
 * **LaTeX settings.** You may clear your stored custom preamble at any time with `/latex preamble reset`.
 * **Automatic expiry.** The deleted-message cache and the LaTeX render cache expire on their own and require no action from you.
+* **Archived pins.** Deleting your original message removes its archived copy automatically.
 * **Erasure requests.** See Sections 7 and 8.
 
 ## 7. Your Rights (GDPR Art. 15-21)
@@ -125,4 +130,3 @@ The Data Controller responsible for this bot is the r/Drugs Lead Developer. For 
 ## 9. Changes to This Policy
 
 This policy may be updated as the bot's features change. The date at the top of this document reflects the most recent revision. Material changes affecting how member data is processed will be announced in the r/Drugs Discord server.
-
