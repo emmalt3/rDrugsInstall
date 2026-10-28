@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated:** 17 October 2026
+**Last Updated:** 28 October 2026
 
 ## 1. Scope
 
@@ -21,12 +21,13 @@ This policy covers the **r/Drugs Utilities Bot**, a single-server Discord applic
 ### Moderation Data
 * Role assignment and removal history, including which role, whether it was added or removed, by what method (command, manual, or automatic), and by whom.
 * Timeout and ban timestamps, and moderator-provided reasons.
+* Staff leave status. When a staff member switches on staff leave with `/staff-leave`, the bot records their user ID, the staff level they held, and when their leave began, so that their roles can be restored when they return.
 
 ### Message Content
 
 The bot reads the text of messages posted in channels it can access. It does this for four purposes:
 
-* To recognise and execute four moderator-only text commands that are typed in chat with a `+` prefix (`+agemute`, `+unmute`, `+silence`, `+snipe`).
+* To recognise and execute four moderator-only text commands that are typed in chat with a `+` prefix (`+agemute`, `+dunmute`, `+silence`, `+snipe`).
 * To detect mathematical and chemical notation written in LaTeX and render it to an image in reply.
 * To capture the content of a message at the moment it is deleted, so moderators can review what was removed.
 * To keep a record of pinned messages. Each community channel holds at most a set number of pins. When a channel goes over that number, the oldest pin is unpinned and a copy is posted to a staff-only archive channel.
@@ -80,6 +81,7 @@ We process your data under the following legal frameworks:
 - **LaTeX compilation error messages** — 5 minutes
 - **Temporary render files** — Removed on completion; any residual files removed within 24 hours
 - **Active role, timeout, and age-verification timers** — Deleted when the timer is processed
+- **Staff leave records** — Deleted when the staff member returns from leave, or when they are emergency demoted
 - **Role change history** — 90 days
 - **Routine operational audit entries (startup, shutdown, restart)** — 30 days
 - **Other operational audit entries** — 180 days
