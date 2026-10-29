@@ -81,7 +81,7 @@ We process your data under the following legal frameworks:
 - **LaTeX compilation error messages** — 5 minutes
 - **Temporary render files** — Removed on completion; any residual files removed within 24 hours
 - **Active role, timeout, and age-verification timers** — Deleted when the timer is processed
-- **Staff leave records** — Deleted when the staff member returns from leave, or when they are emergency demoted
+- **Staff leave records** — Deleted when the staff member returns from leave, when they are emergency demoted, or when their on-leave roles are removed by hand
 - **Role change history** — 90 days
 - **Routine operational audit entries (startup, shutdown, restart)** — 30 days
 - **Other operational audit entries** — 180 days
