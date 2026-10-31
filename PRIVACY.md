@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated:** 28 October 2026
+**Last Updated:** 31 October 2026
 
 ## 1. Scope
 
@@ -27,7 +27,7 @@ This policy covers the **r/Drugs Utilities Bot**, a single-server Discord applic
 
 The bot reads the text of messages posted in channels it can access. It does this for four purposes:
 
-* To recognise and execute four moderator-only text commands that are typed in chat with a `+` prefix (`+agemute`, `+dunmute`, `+silence`, `+snipe`).
+* To recognise and execute five text commands that are typed in chat with a `+` prefix: four moderator-only commands (`+agemute`, `+dunmute`, `+silence`, `+snipe`), and `+av`, which any verified member can use to display a member's avatar.
 * To detect mathematical and chemical notation written in LaTeX and render it to an image in reply.
 * To capture the content of a message at the moment it is deleted, so moderators can review what was removed.
 * To keep a record of pinned messages. Each community channel holds at most a set number of pins. When a channel goes over that number, the oldest pin is unpinned and a copy is posted to a staff-only archive channel.
